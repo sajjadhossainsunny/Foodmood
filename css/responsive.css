@@ -1,0 +1,1251 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    /* =====================common css part start=========================== */
+    .title h2 {
+        font-size: 30px;
+        line-height: 38px;
+        padding: 0 20px;
+        margin-bottom: 15px;
+
+    }
+
+    .title p {
+        padding: 0 20px;
+        margin: 0 0 5px;
+    }
+    .sub_button{
+        padding: 10px 25px;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    /* =====================common css part end=========================== */
+    /* =====================navbar part start=========================== */
+    .navbar{
+        top: 5px;
+        padding: 0;
+        background: transparent;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 12px;
+        padding: 10px 10px 25px;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    .navbar .navbar-brand img{
+        height: 65px;
+    }
+
+    .navbar .navbar-toggler {
+        color: #555;
+        font-size: 30px;
+        border: 0;
+    }
+
+    .navbar .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    /* =====================navbar part end=========================== */
+    /* =====================Bannar part start=========================== */
+    #banner_part {
+        padding: 90px 0 60px;
+    }
+    #banner_part h3 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    #banner_part h1 {
+        font-size: 31px;
+        line-height: 40px;
+        margin: 0px 0 30px;
+    }
+    #banner_part .middle {
+        margin-bottom: 25px;
+    }
+    #banner_part .middle .discount {
+        width: 100px;
+        height: 100px;
+        line-height: 110px;
+    }
+    #banner_part .middle .discount p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    #banner_part .middle .discount p span {
+        font-size: 25px;
+    }
+    #banner_part .middle .text p {
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 1.5;
+        width: 188px;
+        margin-left: 10px;
+    }
+    /* =====================Banner part end=========================== */
+    /* =====================Categories part start=========================== */
+    #categories {
+        margin-bottom: 20px;
+    }
+    #categories .food_slider .next {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 20px;
+    }
+    #categories .food_slider .prev {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 20px;
+    }
+    #categories .food img {
+        width: 100%;
+    }
+    #categories .food .text h4 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    #categories .food .text p {
+        width: 100%;
+        font-size: 13px;
+        line-height: 0;
+    }
+    /* =====================Categories part end=========================== */
+    /* =====================Facilities part start=========================== */
+    #facilities {
+        padding: 15px 0;
+    }
+    #facilities .all_facilities {
+        border-radius: 20px;
+        padding: 45px 5px 50px;
+    }
+    #facilities .all_facilities h4 {
+        width: 100%;
+        margin: 20px auto 10px;
+    }
+    #facilities .all_facilities p {
+        width: 100%;
+        font-size: 14px;
+    }
+    /* =====================Facilities part end=========================== */
+    /* =====================Outlet part start=========================== */
+    #outlet {
+        margin-bottom: 25px;
+    }
+    #outlet .title p{
+        margin-top: 20px;
+    }
+    #outlet .find_outlet .icon_txt i {
+        font-size: 25px;
+        margin: 10px 0 5px;
+    }
+    #outlet .find_outlet .icon_txt p {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    /* =====================Get started part end=========================== */
+    /* =====================Get started part start=========================== */
+    #get_started {
+        margin: 0 0 20px;
+    }
+    #get_started .title p {
+        padding: 0;
+    }
+    #get_started .title h2 {
+        margin-bottom: 15px;
+        padding: 0;
+        width: 190px;
+        line-height: 35px;
+    }
+    #get_started .title h2::before {
+        width: 115px;
+        height: 4px;
+    }
+    #get_started .text h3 {
+        font-size: 20px;
+        line-height: 30px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #get_started .text p {
+        font-size: 15px;
+        line-height: 22px;
+        width: 100%;
+        text-align: justify;
+    }
+    #get_started .g_s_opt {
+        margin-top: 15px;
+    }
+    #get_started .g_s_opt .foodorder {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    #get_started .g_s_opt .foodorder img{
+        height: 80px;
+    }
+    #get_started .g_s_opt .foodorder .text2{
+        margin-left: 10px;
+    }
+    #get_started .g_s_opt .foodorder h5 {
+        font-size: 17px;
+        line-height: 18px;
+        margin: 0 0 5px;
+    }
+    #get_started .g_s_opt .foodorder p {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    #get_started .ad_img{
+        display: none;
+    }
+    /* =====================Outlet part end=========================== */
+    /* =====================Best_team part start=========================== */
+    #best_team {
+        margin-bottom: 15px;
+    }
+    #best_team .title h2 {
+        margin-bottom: 35px;
+    }
+    .slick-slide img {
+        display: block;
+        width: 100%;
+    }
+    #best_team .profile {
+        text-align: center;
+    }
+    #best_team .profile img {
+        width: 100%;
+    }
+    #best_team .profile h5 {
+        font-size: 22px;
+        line-height: 25px;
+        margin: 10px 0 0;
+    }
+    #best_team .profile p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    /* =====================Best_team part end=========================== */
+    /* =====================Get_offer part start=========================== */
+    #get_offer {
+        padding: 20px 0 30px;
+    }
+    #get_offer .main {
+        display: grid;
+    }
+    #get_offer .main .mockup {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    #get_offer .main .mockup  img {
+        width: 80%;
+    }
+    #get_offer .text h3 {
+        font-size: 32px;
+        line-height: 30px;
+    }
+    #get_offer .text p {
+        font-size: 15px;
+        line-height: 27px;
+        width: 90%;
+        margin: 5px 0 30px;
+    }
+    #get_offer .get_app .android {
+        margin-right: 5px;
+        border-radius: 5px;
+        padding: 0px 8px;
+    }
+    #get_offer .get_app .android img {
+        height: 20px;
+    }
+    #get_offer .get_app .android h5 {
+        font-size: 14px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        line-height: 16px;
+    }
+    #get_offer .get_app .android span {
+        font-size: 10px;
+    }
+    #get_offer .get_app .android i {
+        font-size: 25px;
+    }
+    .hello1{
+        order: 2;
+    }
+    .hello2{
+        order: 1;
+    }
+    /* =====================Get_offer part end=========================== */
+    /* =====================Stickers part start=========================== */
+    #stickers {
+        margin: 20px 0;
+    }
+    /* =====================Stickers part end=========================== */
+    /* =====================Contact part start=========================== */
+    #contact_part {
+        padding: 0;
+    }
+    #contact_part .company_info {
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 25px;
+    }
+    #contact_part .company_info img {
+        height: 65px;
+    }
+    #contact_part .company_info p {
+        font-size: 16px;
+        line-height: 20px;
+        width: 100%;
+        margin: 10px 0;
+        text-align: left;
+    }
+    #contact_part .company_info .fa-instagram {
+        margin-right: 0;
+    }
+    #contact_part .contact_info .about:nth-child(3) {
+        padding-right: 0;
+    }
+    #contact_part .contact_info {
+        flex-direction: column;
+    }
+    #contact_part .contact_info .about h3 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    #contact_part .contact_info .about ul {
+        margin-bottom: 5px;
+    }
+    #contact_part .contact_info .about ul li {
+        width: 48%;
+        display: inline-block;
+    }
+    #contact_part .contact_info .about a {
+        font-size: 16px;
+        margin-top: 0;
+    }
+    #contact_part .contact_info .about:last-child li {
+        display: block;
+        width: 100%;
+    }
+    /* =====================Contact part end=========================== */
+    /* =====================Contact part start=========================== */
+    #footer_part .copyright {
+        margin: 15px 0;
+    }
+    #footer_part .copyright p {
+        font-size: 10px;
+        line-height: 20px;
+        margin: 0;
+    }
+    /* =====================Contact part end=========================== */
+    
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* =====================common css part start=========================== */
+    .title h2 {
+        font-size: 30px;
+        line-height: 38px;
+        padding: 0 20px;
+        margin-bottom: 15px;
+
+    }
+
+    .title p {
+        padding: 0 20px;
+        margin: 0 0 5px;
+    }
+    .sub_button{
+        padding: 10px 25px;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    /* =====================common css part end=========================== */
+    /* =====================navbar part start=========================== */
+    .navbar{
+        top: 5px;
+        padding: 0;
+        background: transparent;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 12px;
+        padding: 10px 10px 25px;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    .navbar .navbar-brand img{
+        height: 65px;
+    }
+
+    .navbar .navbar-toggler{
+        color: #555;
+        font-size: 30px;
+        border: 0;
+    }
+
+    .navbar .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    /* =====================navbar part end=========================== */
+    /* =====================Bannar part start=========================== */
+    #banner_part {
+        padding: 90px 0 60px;
+    }
+    #banner_part h3 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    #banner_part h1 {
+        font-size: 35px;
+        line-height: 40px;
+        margin: 0px 0 30px;
+    }
+    #banner_part .middle {
+        margin-bottom: 25px;
+    }
+    #banner_part .middle .discount {
+        width: 125px;
+        height: 125px;
+    }
+    #banner_part .middle .discount p {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    #banner_part .middle .discount p span {
+        font-size: 35px;
+    }
+    #banner_part .middle .text p {
+        font-size: 25px;
+        width: 250px;
+        line-height: 35px;
+    }
+    /* =====================Banner part end=========================== */
+    /* =====================Categories part start=========================== */
+    #categories {
+        margin-bottom: 20px;
+    }
+    #categories .food_slider .next {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 20px;
+    }
+    #categories .food_slider .prev {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 20px;
+    }
+    #categories .food img {
+        width: 100%;
+    }
+    #categories .food .text h4 {
+        font-size: 20px;
+        margin: 0;
+    }
+    #categories .food .text p {
+        width: 100%;
+        font-size: 13px;
+        line-height: 2;
+    }
+    /* =====================Categories part end=========================== */
+    /* =====================Facilities part start=========================== */
+    #facilities {
+        padding: 15px 0;
+    }
+    #facilities .all_facilities {
+        border-radius: 10px;
+        padding: 25px 5px 20px;
+    }
+    #facilities .all_facilities .icon i {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 30px;
+    }
+    #facilities .all_facilities h4 {
+        margin: 10px auto;
+        font-size: 18px;
+        line-height: 25px;
+        width: 100%;
+    }
+    #facilities .all_facilities p {
+        width: 100%;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    /* =====================Facilities part end=========================== */
+    /* =====================Outlet part start=========================== */
+    #outlet {
+        margin-bottom: 25px;
+    }
+    #outlet .title p{
+        margin-top: 20px;
+    }
+    #outlet .find_outlet .icon_txt i {
+        font-size: 25px;
+        margin: 10px 0 5px;
+    }
+    #outlet .find_outlet .icon_txt p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /* =====================Get started part end=========================== */
+    /* =====================Get started part start=========================== */
+    #get_started {
+        margin: 0 0 20px;
+    }
+    #get_started .title p {
+        padding: 0;
+    }
+    #get_started .title h2 {
+        margin-bottom: 15px;
+        padding: 0;
+        width: 190px;
+        line-height: 35px;
+    }
+    #get_started .title h2::before {
+        width: 115px;
+        height: 4px;
+    }
+    #get_started .text h3 {
+        font-size: 20px;
+        line-height: 30px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #get_started .text p {
+        font-size: 15px;
+        line-height: 22px;
+        width: 100%;
+        text-align: justify;
+    }
+    #get_started .g_s_opt {
+        margin-top: 15px;
+    }
+    #get_started .g_s_opt .foodorder {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    #get_started .g_s_opt .foodorder img{
+        height: 80px;
+    }
+    #get_started .g_s_opt .foodorder .text2{
+        margin-left: 10px;
+    }
+    #get_started .g_s_opt .foodorder h5 {
+        font-size: 15px;
+        line-height: 18px;
+        margin: 0 0 5px;
+    }
+    #get_started .g_s_opt .foodorder p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    #get_started .ad_img{
+        width: 350px;
+        margin: 0 auto;
+    }
+    /* =====================Outlet part end=========================== */
+    /* =====================Best_team part start=========================== */
+    #best_team {
+        margin-bottom: 15px;
+    }
+    #best_team .title h2 {
+        margin-bottom: 35px;
+    }
+    .slick-slide img {
+        display: block;
+        width: 100%;
+    }
+    #best_team .profile {
+        text-align: center;
+    }
+    #best_team .profile img {
+        width: 100%;
+    }
+    #best_team .profile h5 {
+        font-size: 22px;
+        line-height: 25px;
+        margin: 10px 0 0;
+    }
+    #best_team .profile p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    /* =====================Best_team part end=========================== */
+    /* =====================Get_offer part start=========================== */
+    #get_offer {
+        padding: 20px 0 30px;
+    }
+    #get_offer .main .mockup {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    #get_offer .main .mockup  img {
+        width: 130%;
+    }
+    #get_offer .text h3 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    #get_offer .text p {
+        font-size: 18px;
+        line-height: 24px;
+        width: 100%;
+        margin: 5px 0 30px;
+    }
+    #get_offer .get_app .android {
+        margin-right: 5px;
+        border-radius: 5px;
+        padding: 0px 8px;
+    }
+    #get_offer .get_app .android img {
+        height: 20px;
+    }
+    #get_offer .get_app .android h5 {
+        font-size: 14px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        line-height: 16px;
+    }
+    #get_offer .get_app .android span {
+        font-size: 10px;
+    }
+    #get_offer .get_app .android i {
+        font-size: 25px;
+    }
+    /* =====================Get_offer part end=========================== */
+    /* =====================Stickers part start=========================== */
+    #stickers {
+        margin: 20px 0;
+    }
+    /* =====================Stickers part end=========================== */
+    /* =====================Contact part start=========================== */
+    #contact_part {
+        padding: 0;
+    }
+    #contact_part .company_info img {
+        height: 65px;
+    }
+    #contact_part .company_info p {
+        font-size: 11px;
+        line-height: 17px;
+        width: 100%;
+        margin: 10px 0;
+    }
+    #contact_part .company_info i {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    #contact_part .contact_info .about h3 {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 8px;
+    }
+    #contact_part .contact_info .about a {
+        font-size: 13px;
+        line-height: 10px;
+        margin-top: 13px;
+    }
+    #contact_part .contact_info .about:nth-child(3) {
+        padding-right: 0;
+    }
+    /* =====================Contact part end=========================== */
+    /* =====================Contact part start=========================== */
+    #footer_part .copyright {
+        margin: 15px 0;
+    }
+    #footer_part .copyright p {
+        font-size: 13px;
+        line-height: 20px;
+        margin: 0;
+    }
+    /* =====================Contact part end=========================== */
+    
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* =====================common css part start=========================== */
+    .title h2 {
+        font-size: 30px;
+        line-height: 38px;
+        padding: 0 20px;
+        margin-bottom: 15px;
+
+    }
+
+    .title p {
+        padding: 0 20px;
+        margin: 0 0 5px;
+    }
+    .sub_button{
+        padding: 10px 25px;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    /* =====================common css part end=========================== */
+    /* =====================navbar part start=========================== */
+    .navbar{
+        top: 5px;
+        padding: 0;
+        background: transparent;
+    }
+    .navbar .navbar-collapse {
+        text-align: end;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 12px;
+        padding: 10px 30px 25px 10px;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+
+    .navbar .navbar-brand img{
+        height: 65px;
+    }
+
+    .navbar .navbar-toggler{
+        color: #555;
+        font-size: 30px;
+        border: 0;
+    }
+
+    .navbar .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    /* =====================navbar part end=========================== */
+    /* =====================Bannar part start=========================== */
+    #banner_part {
+        padding: 90px 0 85px;
+    }
+    #banner_part h3 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    #banner_part h1 {
+        font-size: 40px;
+        line-height: 40px;
+        margin: 0px 0 30px;
+    }
+    #banner_part .middle {
+        margin-bottom: 25px;
+    }
+    #banner_part .middle .discount {
+        width: 130px;
+        height: 130px;
+    }
+    #banner_part .middle .discount p {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    #banner_part .middle .discount p span {
+        font-size: 35px;
+    }
+    #banner_part .middle .text p {
+        font-size: 25px;
+        width: 331px;
+        line-height: 35px;
+    }
+    /* =====================Banner part end=========================== */
+    /* =====================Categories part start=========================== */
+    #categories {
+        margin-bottom: 20px;
+    }
+    #categories .food_slider .next {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 20px;
+    }
+    #categories .food_slider .prev {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 20px;
+    }
+    #categories .food img {
+        width: 100%;
+    }
+    #categories .food .text h4 {
+        font-size: 20px;
+        margin: 0;
+    }
+    #categories .food .text p {
+        width: 100%;
+        font-size: 13px;
+        line-height: 2;
+    }
+    /* =====================Categories part end=========================== */
+    /* =====================Facilities part start=========================== */
+    #facilities {
+        padding: 15px 0;
+    }
+    #facilities .all_facilities {
+        border-radius: 10px;
+        padding: 25px 5px 20px;
+    }
+    #facilities .all_facilities .icon i {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 30px;
+    }
+    #facilities .all_facilities h4 {
+        margin: 10px auto;
+        font-size: 23px;
+        line-height: 25px;
+        width: 100%;
+    }
+    #facilities .all_facilities p {
+        width: 100%;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    /* =====================Facilities part end=========================== */
+    /* =====================Outlet part start=========================== */
+    #outlet {
+        margin-bottom: 25px;
+    }
+    #outlet .title p{
+        margin-top: 20px;
+    }
+    #outlet .find_outlet .icon_txt i {
+        font-size: 25px;
+        margin: 10px 0 5px;
+    }
+    #outlet .find_outlet .icon_txt p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /* =====================Get started part end=========================== */
+    /* =====================Get started part start=========================== */
+    #get_started {
+        margin: 0 0 20px;
+    }
+    #get_started .title p {
+        padding: 0;
+    }
+    #get_started .title h2 {
+        margin-bottom: 15px;
+        padding: 0;
+        width: 190px;
+        line-height: 35px;
+    }
+    #get_started .title h2::before {
+        width: 115px;
+        height: 4px;
+    }
+    #get_started .text h3 {
+        font-size: 21px;
+        line-height: 27px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    #get_started .text p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #get_started .g_s_opt {
+        margin-top: 15px;
+    }
+    #get_started .g_s_opt .foodorder {
+        margin-bottom: 15px;
+    }
+    #get_started .g_s_opt .foodorder img{
+        height: 80px;
+    }
+    #get_started .g_s_opt .foodorder .text2{
+        margin-left: 10px;
+    }
+    #get_started .g_s_opt .foodorder h5 {
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0 0 5px;
+    }
+    #get_started .g_s_opt .foodorder p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    #get_started .fooder_image_align{
+        align-items: center;
+    }
+    #get_started .ad_img{
+        width: 350px;
+        margin: 0 auto;
+    }
+    /* =====================Outlet part end=========================== */
+    /* =====================Best_team part start=========================== */
+    #best_team {
+        margin-bottom: 15px;
+    }
+    #best_team .title h2 {
+        margin-bottom: 35px;
+    }
+    .slick-slide img {
+        display: block;
+        width: 100%;
+    }
+    #best_team .profile {
+        text-align: center;
+    }
+    #best_team .profile img {
+        width: 100%;
+    }
+    #best_team .profile h5 {
+        font-size: 22px;
+        line-height: 25px;
+        margin: 10px 0 0;
+    }
+    #best_team .profile p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    /* =====================Best_team part end=========================== */
+    /* =====================Get_offer part start=========================== */
+    #get_offer {
+        padding: 20px 0 30px;
+    }
+    #get_offer .main .mockup {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    #get_offer .main .mockup  img {
+        width: 130%;
+    }
+    #get_offer .text h3 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    #get_offer .text p {
+        font-size: 18px;
+        line-height: 24px;
+        width: 100%;
+        margin: 5px 0 30px;
+    }
+    #get_offer .get_app .android {
+        margin-right: 5px;
+        border-radius: 5px;
+        padding: 0px 8px;
+    }
+    #get_offer .get_app .android img {
+        height: 20px;
+    }
+    #get_offer .get_app .android h5 {
+        font-size: 14px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        line-height: 16px;
+    }
+    #get_offer .get_app .android span {
+        font-size: 10px;
+    }
+    #get_offer .get_app .android i {
+        font-size: 25px;
+    }
+    /* =====================Get_offer part end=========================== */
+    /* =====================Stickers part start=========================== */
+    #stickers {
+        margin: 50px 0;
+    }
+    /* =====================Stickers part end=========================== */
+    /* =====================Contact part start=========================== */
+    #contact_part {
+        padding: 0;
+    }
+    #contact_part .company_info img {
+        height: 65px;
+    }
+    #contact_part .company_info p {
+        font-size: 15px;
+        line-height: 17px;
+        width: 100%;
+        margin: 10px 0;
+    }
+    #contact_part .company_info i {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+    #contact_part .contact_info .about h3 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 8px;
+    }
+    #contact_part .contact_info .about a {
+        font-size: 15px;
+        line-height: 10px;
+        margin-top: 13px;
+    }
+    #contact_part .contact_info .about:nth-child(3) {
+        padding-right: 0;
+    }
+    /* =====================Contact part end=========================== */
+    /* =====================Contact part start=========================== */
+    #footer_part .copyright {
+        margin: 15px 0;
+    }
+    #footer_part .copyright p {
+        font-size: 13px;
+        line-height: 20px;
+        margin: 0;
+    }
+    /* =====================Contact part end=========================== */
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* =====================common css part start=========================== */
+    .title h2 {
+        font-size: 45px;
+        padding: 0 20px;
+
+    }
+
+    .title p {
+        padding: 0 20px;
+        margin: 60px 0 5px;
+    }
+    .sub_button{
+        padding: 10px 25px;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    /* =====================common css part end=========================== */
+    /* =====================navbar part start=========================== */
+    .navbar .navbar-brand img{
+        height: 65px;
+    }
+    /* =====================navbar part end=========================== */
+    /* =====================Bannar part start=========================== */
+    #banner_part {
+        padding: 90px 0 85px;
+    }
+    #banner_part h3 {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    #banner_part h1 {
+        font-size: 55px;
+        line-height: 40px;
+    }
+    #banner_part .middle {
+        margin-bottom: 25px;
+    }
+    #banner_part .middle .discount {
+        width: 150px;
+        height: 150px;
+    }
+    #banner_part .middle .discount p {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    #banner_part .middle .discount p span {
+        font-size: 40px;
+    }
+    #banner_part .middle .text p {
+        font-size: 30px;
+        width: 458px;
+        line-height: 45px;
+    }
+    /* =====================Banner part end=========================== */
+    /* =====================Categories part start=========================== */
+    #categories {
+        margin-bottom: 20px;
+    }
+    #categories .food_slider .next {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 20px;
+    }
+    #categories .food_slider .prev {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 20px;
+    }
+    #categories .food img {
+        width: 100%;
+    }
+    #categories .food .text h4 {
+        font-size: 20px;
+        margin: 0;
+    }
+    #categories .food .text p {
+        width: 100%;
+        font-size: 13px;
+        line-height: 2;
+    }
+    /* =====================Categories part end=========================== */
+    /* =====================Facilities part start=========================== */
+    #facilities {
+        padding: 15px 0;
+    }
+    #facilities .all_facilities {
+        padding: 45px 5px 50px;
+    }
+    #facilities .all_facilities h4 {
+        margin: 15px auto;
+    }
+    #facilities .all_facilities p {
+        font-size: 13px;
+    }
+    /* =====================Facilities part end=========================== */
+    /* =====================Outlet part start=========================== */
+    
+    #outlet .find_outlet .icon_txt i {
+        font-size: 25px;
+        margin: 10px 0 5px;
+    }
+    /* =====================Outlet part end=========================== */
+    /* =====================Get started part start=========================== */
+    #get_started .title p {
+        padding: 0;
+    }
+    #get_started .title h2 {
+        /* margin-bottom: 15px; */
+        padding: 0;
+        /* width: 190px; */
+        line-height: 64px;
+    }
+    #get_started .title h2::before {
+        width: 115px;
+        height: 4px;
+    }
+    #get_started .text h3 {
+        width: 100%;
+    }
+    #get_started .text p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    #get_started .g_s_opt {
+        margin-top: 15px;
+    }
+    #get_started .g_s_opt .foodorder {
+        margin-bottom: 15px;
+    }
+    #get_started .g_s_opt .foodorder img{
+        height: 80px;
+    }
+    #get_started .g_s_opt .foodorder .text2{
+        margin-left: 10px;
+    }
+    #get_started .g_s_opt .foodorder h5 {
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0 0 5px;
+    }
+    #get_started .g_s_opt .foodorder p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    #get_started .fooder_image_align{
+        align-items: center;
+    }
+    #get_started .ad_img{
+        margin: 0 auto;
+    }
+    /* =====================Get started part end=========================== */
+    /* =====================Best_team part start=========================== */
+    #best_team .title h2 {
+        margin-bottom: 35px;
+    }
+    .slick-slide img {
+        display: block;
+        width: 100%;
+    }
+    #best_team .profile {
+        text-align: center;
+    }
+    #best_team .profile img {
+        width: 100%;
+    }
+    #best_team .profile h5 {
+        font-size: 22px;
+        line-height: 25px;
+        margin: 10px 0 0;
+    }
+    #best_team .profile p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    /* =====================Best_team part end=========================== */
+    /* =====================Get_offer part start=========================== */
+    #get_offer {
+        padding: 65px 0;
+    }
+    #get_offer .main .mockup {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    #get_offer .text h3 {
+        font-size: 49px;
+        line-height: 54px;
+    }
+    #get_offer .text p {
+        font-size: 18px;
+        line-height: 24px;
+        width: 100%;
+        margin: 5px 0 30px;
+    }
+    #get_offer .get_app .android {
+        padding: 5px 10px;
+    }
+    #get_offer .get_app .android img {
+        height: 25px;
+    }
+    #get_offer .get_app .android h5 {
+        font-size: 16px;
+    }
+    #get_offer .get_app .android span {
+        font-size: 14px;
+    }
+    #get_offer .get_app .android i {
+        font-size: 25px;
+    }
+    /* =====================Get_offer part end=========================== */
+    /* =====================Contact part start=========================== */
+    #contact_part {
+        padding: 0;
+    }
+    #contact_part .company_info p {
+        font-size: 16px;
+        width: 100%;
+        margin: 10px 0;
+    }
+    #contact_part .contact_info .about:nth-child(3) {
+        padding-right: 0;
+    }
+    /* =====================Contact part end=========================== */
+    /* =====================Contact part start=========================== */
+    #footer_part .copyright {
+        margin: 15px 0;
+    }
+    #footer_part .copyright p {
+        font-size: 13px;
+        line-height: 20px;
+        margin: 0;
+    }
+    /* =====================Contact part end=========================== */
+    
+}

@@ -1,0 +1,677 @@
+/* =======================================================================================
+                                Common css start
+======================================================================================= */
+* {
+    box-sizing: border-box;
+}
+
+ul,ol {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+:root{
+    --font_name: 'Poppins', sans-serif;
+    --bg_color:  #e4c307;
+    --text-color_w:  #fff;
+}
+
+.sub_button{
+    padding: 12px 47px;
+    background: var(--bg_color);
+    font-family: var(--font_name);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--text-color_w);
+    border-radius: 10px;
+    border: 1px solid var(--bg_color);
+    transition: all .4s linear;
+}
+
+.sub_button:hover{
+    background: transparent;
+    color: var(--bg_color);
+    border: 1px solid var(--bg_color);
+}
+
+.title{
+    text-align: center;
+}
+
+.title p{
+    font-family: var(--font_name);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--bg_color);
+    margin: 80px 0 5px;
+}
+
+.title h2{
+    font-family: var(--font_name);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 82px;
+    color: #231900;
+    margin-bottom: 25px;
+}
+h1,h2,h3,h4,h5,p{
+    margin: 0;
+}
+/* =======================================================================================
+                                Common css end
+======================================================================================= */
+
+/* =======================================================================================
+                                Navbar css start
+======================================================================================= */
+.navbar{
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    background: rgba(0, 0, 0, .4);
+    padding: 5px 0;
+}
+
+.navbar .navbar-brand img{
+    height: 75px;
+}
+
+.navbar .navbar-nav .nav-item{
+    margin-left: 28px;
+}
+
+.navbar .navbar-nav .nav-item:first-child{
+    margin-left: 0;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    font-family: var(--font_name);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--text-color_w);
+    transition: all .3s linear;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: var(--bg_color);
+}
+
+.navbar .navbar-nav .nav-item .active{
+    color: var(--bg_color);
+}
+/* =======================================================================================
+                                Navbar css end
+======================================================================================= */
+
+/* =======================================================================================
+                                Banner css start
+======================================================================================= */
+#banner_part{
+    width: 100%;
+    padding: 150px 0 200px;
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+}
+
+#banner_part h3{
+    font-family: var(--font_name);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    color: var(--text-color_w);
+}
+
+#banner_part h1 {
+	font-family: var(--font_name);
+	font-style: normal;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 66px;
+	color: var(--text-color_w);
+    margin: 25px 0 40px;
+}
+
+#banner_part .middle{
+    display: flex;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+#banner_part .middle .discount{
+    width: 205px;
+    height: 205px;
+    background: var(--bg_color);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 205px;
+    display: flex;
+    align-items: center;
+}
+
+#banner_part .middle .discount p{
+    font-family: var(--font_name);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: var(--text-color_w);
+}
+
+#banner_part .middle .discount p span{
+    font-size: 65px;
+}
+
+#banner_part .middle .text p{
+    font-family: var(--font_name);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: var(--text-color_w);
+    width: 324px;
+    margin-left: 30px;
+}
+/* =======================================================================================
+                                Banner css end
+======================================================================================= */
+
+/* =======================================================================================
+                                Categories css end
+======================================================================================= */
+#categories{
+    margin-bottom: 40px;
+}
+
+#categories .food{
+    text-align: center;
+    width: 100%;
+    padding: 70px 0 20px;
+    /* background: #fce982; */
+}
+
+#categories .food img{
+    display: inline-block;
+}
+
+#categories .food .text h4{
+    font-family: var(--font_name);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #231900;
+    margin: 15px 0;
+}
+
+#categories .food .text p{
+    font-family: var(--font_name);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #231900;
+}
+
+#categories .food_slider{
+    position: relative;
+}
+
+#categories .food_slider .prev{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    width: 35px;
+    height: 35px;
+    background: var(--bg_color);
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+
+}
+
+#categories .food_slider .next{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+    width: 35px;
+    height: 35px;
+    background: var(--bg_color);
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+/* =======================================================================================
+                                Categories css end
+======================================================================================= */
+/* =======================================================================================
+                                Facilities css end
+======================================================================================= */
+#facilities{
+    background: var(--bg_color);
+    padding: 25px 0;
+}
+
+#facilities .all_facilities{
+    text-align: center;
+    padding: 45px 0 50px;
+    border-radius: 20px;
+    transition: all .3s linear;
+}
+
+#facilities .all_facilities .icon i{
+    width: 115px;
+    height: 115px;
+    background: #fff;
+    text-align: center;
+    line-height: 115px;
+    border-radius: 50%;
+    font-size: 36px;
+    color: var(--bg_color);
+}
+
+#facilities .all_facilities h4 {
+	font-family: var(--font_name);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color: var(--text-color_w);
+	width: 171px;
+	margin: 42px auto 22px;
+}
+
+#facilities .all_facilities p {
+	font-family: var(--font_name);
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	color: var(--text-color_w);
+	width: 100%;
+	margin: 0 auto;
+}
+
+#facilities .all_facilities:hover{
+    box-shadow: 8px 8px 31px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 7px 7px 31px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 7px 7px 31px 0px rgba(0, 0, 0, 0.2);
+}
+/* =======================================================================================
+                                Facilities css end
+======================================================================================= */
+
+/* =======================================================================================
+                                Outlet css start
+======================================================================================= */
+#outlet{
+    margin-bottom: 45px;
+}
+
+#outlet .find_outlet img{
+    width: 100%;
+}
+
+#outlet .find_outlet .icon_txt{
+    text-align: center;
+}
+
+#outlet .find_outlet .icon_txt i{
+    font-size: 33px;
+    color: var(--bg_color);
+    margin: 20px 0 10px;
+}
+
+#outlet .find_outlet .icon_txt p{
+    font-family: var(--font_name);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #231900;
+    width: 100%;
+    margin-bottom: 5px;
+}
+/* =======================================================================================
+                                Outlet css end
+======================================================================================= */
+
+/* =======================================================================================
+                                Get_started css start
+======================================================================================= */
+#get_started{
+    margin: 100px 0 68px;
+}
+
+#get_started .title p{
+    text-align: start;
+    margin: 0;
+}
+
+
+#get_started .title h2{
+    text-align: start;
+    position: relative;
+}
+
+#get_started .title h2::before{
+    content: "";
+    width: 175px;
+    height: 5px;
+    background: var(--bg_color);
+    position: absolute;
+    bottom: 0;
+    transform: translateY(5px);
+}
+
+#get_started .text h3{
+    font-family: var(--font_name);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    color: #231900;
+    width: 585px;
+}
+
+#get_started .text p{
+    font-family: var(--font_name);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #231900;
+    width: 100%;
+}
+
+#get_started .g_s_opt{
+    margin-top: 40px;
+}
+
+#get_started .g_s_opt .foodorder h5{
+    font-family: var(--font_name);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #231900;
+    margin: 20px 0 10px;
+}
+
+#get_started .g_s_opt .foodorder p{
+    font-family: var(--font_name);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #231900;
+}
+
+#get_started .ad_img{
+    width: 100%;
+}
+
+#get_started .ad_img img{
+    width: 100%;
+}
+/* =======================================================================================
+                                Get_started css end
+======================================================================================= */
+
+/* =======================================================================================
+                                Best_team css start
+======================================================================================= */
+#best_team{
+    margin-bottom: 65px;
+}
+
+#best_team .title h2{
+    position: relative;
+    margin-bottom: 109px;
+}
+
+#best_team .title h2::before{
+    content: "";
+    width: 205px;
+    height: 5px;
+    background: var(--bg_color);
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 5px);
+}
+
+#best_team .profile h5{
+    font-family: var(--font_name);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #231900;
+    margin: 37px 0 13px;
+}
+
+#best_team .profile p{
+    font-family: var(--font_name);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #231900;
+}
+/* =======================================================================================
+                                Best_team css end
+======================================================================================= */
+
+/* =======================================================================================
+                                Get_offer css start
+======================================================================================= */
+#get_offer{
+    background: var(--bg_color);
+    padding: 65px 0 135px;
+}
+
+#get_offer .main{
+    display: flex;
+    align-items: center;
+}
+
+#get_offer .text h3{
+    font-family: var(--font_name);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 82px;
+    color: var(--text-color_w);
+}
+
+#get_offer .text p{
+    font-family: var(--font_name);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    color: var(--text-color_w);
+    width: 584px;
+    margin: 32px 0 73px;
+}
+
+#get_offer .get_app{
+    display: flex;
+}
+
+#get_offer .get_app .android{
+    background: #000;
+    margin-right: 15px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+	color: #fff;
+    transition: all .4s linear;
+
+}
+
+#get_offer .get_app .android img{
+    height: 40px;
+
+}
+
+#get_offer .get_app .android h5 {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 18px;
+	margin-left: 10px;
+	margin-bottom: 7px;
+}
+
+#get_offer .get_app .android span {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+#get_offer .get_app .android i{
+	font-size: 40px;
+    color: rgb(226, 226, 226);
+    transition: all .4s linear;
+}
+
+#get_offer .get_app .android:hover{
+    background: #f3ffc5;
+    color: #000000;
+}
+
+#get_offer .get_app .android:hover i{
+    color: #000000;
+}
+
+#get_offer .mockup img{
+    width: 100%;
+    /* display: none; */
+}
+/* =======================================================================================
+                                Get_offer css end
+======================================================================================= */
+
+/* =======================================================================================
+                                Stickers css start
+======================================================================================= */
+#stickers{
+    margin: 75px 0;
+}
+#stickers .image img{
+    width: 100%;
+}
+/* =======================================================================================
+                                Stickers css end
+======================================================================================= */
+
+/* =======================================================================================
+                                Contact_part css start
+======================================================================================= */
+#contact_part{
+    padding: 89px 0 144px;
+}
+
+#contact_part .company_info img{
+    height: 75px;
+}
+
+#contact_part .company_info p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #231900;
+    width: 380px;
+    margin: 47px 0;
+}
+
+#contact_part .company_info i{
+    font-size: 25px;
+    color: #000;
+    margin-right: 46px;
+}
+
+#contact_part .contact_info{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact_part .contact_info .about h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #231900;
+    margin-bottom: 34px;
+}
+
+#contact_part .contact_info .about a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: #231900;
+    margin-top: 13px;
+}
+
+#contact_part .contact_info .about:nth-child(3){
+    padding-right: 75px;
+}
+
+/* =======================================================================================
+                                Contact_part css end
+======================================================================================= */
+
+/* =======================================================================================
+                                Footer css start
+======================================================================================= */
+#footer_part .copyright{
+    display: flex;
+    justify-content: space-between;
+    margin: 43px 0;
+}
+#footer_part .copyright p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #231900;
+    margin: 0;
+}
+/* =======================================================================================
+                                Footer css end
+======================================================================================= */
+
+/* sunnnnnnnn */
